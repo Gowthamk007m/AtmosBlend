@@ -480,7 +480,7 @@ Checkout
       var payment_method = $('input[name="payment"]:checked').attr('id');
       const cart_variants=[]
       const variants_quantity=[]
-      {% for variant in variants  %}
+      {% for variant in variants %}
         
       cart_variants.push('{{variant.id}}')
       variants_quantity.push('{{variant.qty}}')
