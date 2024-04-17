@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'cart',
     'storages',
     'mathfilters',
+    'tailwind',
        
 ]
 
